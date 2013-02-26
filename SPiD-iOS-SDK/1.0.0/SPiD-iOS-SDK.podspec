@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'SPiD'
+  s.name     = 'SPiD-iOS-SDK'
   s.version  = '1.0.0'
   s.license  = 'MIT'
   s.summary  = 'SPiD iOS SDK'
