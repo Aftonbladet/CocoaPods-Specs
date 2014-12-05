@@ -1,5 +1,4 @@
 Pod::Spec.new do |s|
-
     s.name         = "AdGateway"
     s.version      = "2.0.4-beta"
     s.license      = 'COMMERCIAL'
@@ -12,5 +11,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks   = "adgateway-framework-ios-2.0.4/AdGateway.embeddedframework/AdGateway.framework"
     s.public_header_files   = "adgateway-framework-ios-2.0.4/AdGateway.embeddedframework/AdGateway.framework/Headers/*.h*"
     s.resource              = "adgateway-framework-ios-2.0.4/AdGateway.embeddedframework/AdGateway.framework"
-
+    s.frameworks            = 'UIKit', 'Foundation', 'CoreGraphics', 'CoreLocation', 'CFNetwork', 'SystemConfiguration', 'MediaPlayer', 'EventKit', 'EventKitUI', 'CoreTelephony'
 end
