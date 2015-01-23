@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
     s.vendored_frameworks   = "Framework/ADTECHMobileSDK.framework"
     s.public_header_files   = "Framework/ADTECHMobileSDK.framework/Headers/*.h"
     s.resources             = ["Framework/ADTECHMobileSDK.framework/Resources/*"]
-    # s.frameworks            = 'UIKit', 'Foundation', 'CoreGraphics', 'CoreLocation', 'CFNetwork', 'SystemConfiguration', 'MediaPlayer', 'EventKit', 'EventKitUI', 'CoreTelephony'
+    s.framework 		= %w{ADTECHMobileSDK AdSupport AudioToolbox AVFoundation CFNetwork CoreData CoreGraphics CoreLocation CoreMedia CoreMotion CoreTelephony EventKit EventKitUI MediaPlayer MessageUI MobileCoreServices QuartzCore Security SystemConfiguration }
+    s.libraries 		= 'z', 'xml2'
 end
