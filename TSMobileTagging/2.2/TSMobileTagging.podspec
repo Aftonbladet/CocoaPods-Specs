@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
     s.vendored_frameworks   = "MobileTaggingDistrubtionPackage20140514/TSMobileTagging.framework"
     s.public_header_files   = "MobileTaggingDistrubtionPackage20140514/TSMobileTagging.framework/Headers/*.h"
     # s.resources 		= ['Framework/ADTECHMobileSDK.framework/Versions/A/Resources/ADTECHMobileSDK.bundle', 'Framework/ADTECHMobileSDK.framework/Versions/A/Resources/ADTECHMobileAnalyticsSDK.bundle']
-    # s.frameworks 		= 'ADTECHMobileSDK', 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreData', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'EventKit', 'EventKitUI', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'StoreKit', 'SystemConfiguration'
+    s.frameworks 		= 'Security'
     # s.libraries 		= 'z', 'xml2'
 end
