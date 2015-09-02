@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.authors      = {'Maciej Walczynski' => 'maciej.walczynski@schibsted.pl'}
     s.homepage     = "http://adtech.com"
     s.license      = "COMMERCIAL"
-    s.source       = { :http => "http://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/37452/415882/VpCpIv1PrFQF3dA/ADTECHMobileSDK_iOS_3.7.3.zip" }
+    s.source       = { :http => "http://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/37452/415882/bIwquOvnGxmXb6i/ADTECHMobileSDK_iOS_3.7.3.zip" }
 
     s.preserve_paths 	= 'Framework'
     s.vendored_frameworks   = "Framework/ADTECHMobileSDK.framework"
