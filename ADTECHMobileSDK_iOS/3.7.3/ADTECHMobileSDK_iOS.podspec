@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
     s.homepage     = "http://adtech.com"
     s.license      = "COMMERCIAL"
     s.source       = { :http => "http://s3-eu-west-1.amazonaws.com/uploads-eu.hipchat.com/37452/415882/bIwquOvnGxmXb6i/ADTECHMobileSDK_iOS_3.7.3.zip" }
+    s.platform     = :ios
 
-    s.preserve_paths 	= 'Framework'
-    s.vendored_frameworks   = "Framework/ADTECHMobileSDK.framework"
-    s.public_header_files   = "Framework/ADTECHMobileSDK.framework/Headers/*.h"
-    s.resources 		= ['Framework/ADTECHMobileSDK.framework/Versions/A/Resources/ADTECHMobileSDK.bundle', 'Framework/ADTECHMobileSDK.framework/Versions/A/Resources/ADTECHMobileAnalyticsSDK.bundle']
+    s.vendored_frameworks   = "ADTECHMobileSDK_iOS_3.7.3/Framework/ADTECHMobileSDK.framework"
+    s.public_header_files   = "ADTECHMobileSDK_iOS_3.7.3/Framework/ADTECHMobileSDK.framework/Versions/A/Headers/*.h"
+    s.resources 		= ['ADTECHMobileSDK_iOS_3.7.3/Framework/ADTECHMobileSDK.framework/Versions/A/Resources/ADTECHMobileSDK.bundle', 'ADTECHMobileSDK_iOS_3.7.3/Framework/ADTECHMobileSDK.framework/Versions/A/Resources/ADTECHMobileAnalyticsSDK.bundle']
     s.frameworks 		= 'ADTECHMobileSDK', 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreData', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'EventKit', 'EventKitUI', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'StoreKit', 'SystemConfiguration'
     s.libraries 		= 'z', 'xml2'
 end
