@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.authors      = {'Maciej Walczynski' => 'maciej.walczynski@schibsted.pl'}
     s.homepage     = "http://dohi.se"
     s.license      = "COMMERCIAL"
-    s.source       = { :http => "http://slack-files.com/files-pub/T0356Q2CJ-F0AC1L4CS-ab2ff664f7/download/adgateway-framework-ios-2.0.8.zip" }
+    s.source       = { :http => "https://github.com/Aftonbladet/CocoaPods-Specs/blob/master/frameworks/AdGatewayKeywordFetcher/2.0.8/adgateway-framework-ios-2.0.8.zip?raw=true" }
 
     s.vendored_frameworks   = "adgateway-framework-ios-2.0.8/AdGatewayKeywordFetcher.embeddedframework/AdGatewayKeywordFetcher.framework"
     s.public_header_files   = "adgateway-framework-ios-2.0.8/AdGatewayKeywordFetcher.embeddedframework/AdGatewayKeywordFetcher.framework/Headers/*.h*"
