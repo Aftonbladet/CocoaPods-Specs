@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
     s.resources 		= ['ADTECHMobileSDK_iOS_3.7.3/Framework/ADTECHMobileSDK.framework/Versions/A/Resources/ADTECHMobileSDK.bundle', 'ADTECHMobileSDK_iOS_3.7.3/Framework/ADTECHMobileSDK.framework/Versions/A/Resources/ADTECHMobileAnalyticsSDK.bundle']
     s.frameworks 		= 'ADTECHMobileSDK', 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreData', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'EventKit', 'EventKitUI', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'StoreKit', 'SystemConfiguration'
     s.libraries 		= 'z', 'xml2'
+    s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 end
