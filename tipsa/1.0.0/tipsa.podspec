@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
     s.homepage         = "https://github.com/<GITHUB_USERNAME>/tipsPodMy"
     s.license          = 'MIT'
     s.author           = { "Andy Huber" => "andy.huber@schibsted.se" }
-    s.source           = { :git => "https://github.schibsted.io/ab/tipsa-ios-library.git", :tag => s.version.to_s }
+    s.source           = { :git => "git@github.schibsted.io:ab/tipsa-ios-library.git", :tag => s.version.to_s }
 
     s.platform     = :ios, '7.0'
     s.requires_arc = true
