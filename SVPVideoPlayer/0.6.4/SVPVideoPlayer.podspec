@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SVPVideoPlayer"
-  s.version      = "0.6.3"
+  s.version      = "0.6.4"
   s.summary      = "This is AVFoundation based player that allows to play videos served by Schibsted Video Platform."
   s.homepage     = "http://vgtv.no"
 
@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "ssh://git.int.vgnett.no/git/ios/svp_video_player.git"}
+  s.source       = { :git => "git@github.schibsted.io:svp/ios-native-player.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
