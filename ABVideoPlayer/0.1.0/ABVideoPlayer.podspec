@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.schibsted.io/svp/ios-native-player"
   s.license          = 'MIT'
   s.author           = { "Albert Avellana Pardina" => "albert.avellanapardina@schibsted.se" }
-  s.source           = { :git => "git@github.schibsted.io:ab/videoplayer-ios-library.git", :tag => "0.1.0" }
+  s.source           = { :git => "git@github.schibsted.io:ab/videoplayer-ios-library.git" }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
