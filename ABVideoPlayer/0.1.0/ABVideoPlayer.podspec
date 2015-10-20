@@ -11,12 +11,10 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "A video player used in Aftonbladet that allows the reproduction of hls/mp4 videos with the possibility of displaying pre/mid/post roll ads. It uses the core player from SVP (SVPVideoPlayer)"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ABVideoPlayer"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.schibsted.io/svp/ios-native-player"
   s.license          = 'MIT'
   s.author           = { "Albert Avellana Pardina" => "albert.avellanapardina@schibsted.se" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ABVideoPlayer.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.schibsted.io/svp/ios-native-player.git", :tag => "0.1.0" }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
