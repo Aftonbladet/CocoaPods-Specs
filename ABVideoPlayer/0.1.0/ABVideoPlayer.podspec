@@ -11,14 +11,6 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "A video player used in Aftonbladet that allows the reproduction of hls/mp4 videos with the possibility of displaying pre/mid/post roll ads. It uses the core player from SVP (SVPVideoPlayer)"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC A video player used in Aftonbladet that allows the reproduction of hls/mp4 videos with the possibility of displaying pre/mid/post roll ads. It uses the  core player from SVP (SVPVideoPlayer). For more information on how to use it check the Example code or the README.
-                       DESC
-
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/ABVideoPlayer"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
