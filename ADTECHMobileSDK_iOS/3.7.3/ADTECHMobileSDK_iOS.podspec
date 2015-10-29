@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.authors      = {'Maciej Walczynski' => 'maciej.walczynski@schibsted.pl'}
     s.homepage     = "http://adtech.com"
     s.license      = "COMMERCIAL"
-    s.source       = { :http => "https://raw.githubusercontent.com/Aftonbladet/CocoaPods-Specs/master/ADTECHMobileSDK_iOS/3.7.3/ADTECHMobileSDK_iOS_3.7.3.zip" }
+    s.source       = { :http => "https://raw.githubusercontent.com/Aftonbladet/CocoaPods-Specs/1406bb818cca9116800cbc5306951a6d2b5ba4e1/ADTECHMobileSDK_iOS/3.7.3/ADTECHMobileSDK_iOS_3.7.3.zip" }
     s.platform     = :ios
     s.vendored_frameworks   = 'Framework/ADTECHMobileSDK.framework'
     s.public_header_files   = 'Framework/ADTECHMobileSDK.framework/Versions/A/Headers/*.h'
