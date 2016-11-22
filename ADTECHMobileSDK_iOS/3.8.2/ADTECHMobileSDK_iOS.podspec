@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios
     s.vendored_frameworks   = 'Framework/ADTECHMobileSDK.framework'
     s.public_header_files   = 'Framework/ADTECHMobileSDK.framework/Headers/*.h'
+    s.resources 		= 'Framework/ADTECHMobileSDK.framework/ADTECHMobileSDK.bundle'
     s.frameworks 		= 'ADTECHMobileSDK', 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreData', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'EventKit', 'EventKitUI', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'StoreKit', 'SystemConfiguration'
     s.libraries 		= 'z', 'xml2'
     s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
